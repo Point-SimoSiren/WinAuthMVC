@@ -5,6 +5,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WinAuthMVC.Models;
 
+
+// THIS WINDOWS AUTHORIZATION WORKS ONLY IN LOCALHOST, NOT IN AZURE
+// IF YOU WANT TO USE THIS IN AZURE, YOU NEED TO SET UP A CUSTOM AUTHENTICATION METHOD
+
+
 namespace WinAuthMVC.Controllers
 {
     [Authorize] // Ensure that the user is authenticated (Any Windows user)
